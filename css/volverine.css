@@ -1,0 +1,44 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+header {
+    background-color:coral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > button{
+    margin-left: 20%;
+}
+
+figure {
+    width: 10%;
+
+}
+
+figure > img {
+    width: 75%;
+    height: 75%;
+}
+
+footer {
+    background-color:coral
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
